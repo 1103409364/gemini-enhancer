@@ -12,7 +12,7 @@
   'use strict';
 
   function closeSidebar() {
-    document.querySelector('.sidenav-header-buttons button')?.click();
+    document.querySelector('.sidenav-header-buttons .close-sidenav-button button')?.click();
   }
 
   function openSidebar() {
